@@ -1,0 +1,44 @@
+.btn {
+  margin-left: 300px;
+  height: 300px;
+  width: 900px;
+  border-radius: 100px;
+  background-color: antiquewhite;
+  font-size: 50px;
+  color: blueviolet;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 0.3s;
+}
+.spn {
+  display: none;
+}
+.btn:hover {
+  opacity: 0.5;
+  color: brown;
+  background-color: rgb(255, 145, 0);
+}
+
+.btn:hover > .spn {
+  opacity: 1;
+  display: block;
+  color: brown;
+}
+.btn:hover > .sp1 {
+  display: none;
+}
+
+.spn {
+  display: none;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(5, 83, 83);
+  margin-top: 200px;
+  margin-left: 400px;
+}
+
+.srp1 {
+  position: absolute;
+  top: 200px;
+  display: none;
+}
